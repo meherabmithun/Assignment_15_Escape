@@ -1,0 +1,61 @@
+/*header start*/
+header{
+	background-image: url(../images/banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	
+}
+.nav_bar{
+	padding: 30px 0;
+}
+.logo_text{
+	font-weight: 700;
+    color: #ffffff;
+    padding-left: 5px;
+}
+.menu ul li a{
+    font-size: 18px;
+    color: #bbbbbb !important;
+    padding-right: 30px !important;
+    transition: .5s;
+}
+.menu ul li:last-child a{
+    padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #7690C5 !important;
+}
+/*slider start*/
+.car_in{
+	bottom: 30px;
+}
+.car_in li{
+	width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.content{
+	margin: 130px 0;
+}
+.heading{
+	font-weight: 400;
+    font-size: 25px;
+    color: #bbbbbb;
+    padding-top: 40px;
+}
+.big_heading{
+	font-size: 70px;
+    color: #ffffff;
+    margin: 20px 0 100px;
+}
+.btn_c{
+	margin-bottom: 10px;
+    color: #ffffff;
+    border-color: #ffffff;
+    padding: 12px 40px;
+}
+/*slider end*/
+/*header end*/
